@@ -1,0 +1,12 @@
+{
+    "name": "node-red-sensehat",
+    "description": "raspberry pi with a sensehat and usb barcode scanner to register ttn devices",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows_sensehat.json",
+            "credentialsFile": "flows_sensehat_cred.json"
+        }
+    }
+}
